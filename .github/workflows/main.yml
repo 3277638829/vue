@@ -42,7 +42,7 @@ jobs:
         run: npn run build
 
       - name: 部署到PAGES
-        use: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: 123
           folder: dist/
